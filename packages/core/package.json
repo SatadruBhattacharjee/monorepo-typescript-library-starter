@@ -1,0 +1,30 @@
+{
+  "name": "@multiscreen/core",
+  "version": "0.0.1",
+  "description": "core utilities for multiscreen TV and Mobile apps",
+  "keywords": [
+    "TV",
+    "OTT"
+  ],
+  "author": "Satadru Bhattacharjee <Satadru.Bhatt@gmail.com>",
+  "homepage": "https://github.com/SatadruBhattacharjee/multiscreen#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatadruBhattacharjee/multiscreen.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/SatadruBhattacharjee/multiscreen/issues"
+  }
+}
