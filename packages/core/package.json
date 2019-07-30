@@ -29,7 +29,9 @@
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "prebuild": "rimraf dist",
     "precommit": "lint-staged",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch",
+    "test:prod": "npm run lint && npm run test -- --no-cache"
   },
   "lint-staged": {
     "{src,__tests__}/**/*.ts": [
