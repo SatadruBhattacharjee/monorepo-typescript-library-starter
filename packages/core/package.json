@@ -25,8 +25,20 @@
     "url": "git+https://github.com/SatadruBhattacharjee/multiscreen.git"
   },
   "scripts": {
+    "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' '__tests__/**/*.ts'",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
+    "precommit": "lint-staged",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "lint-staged": {
+    "{src,__tests__}/**/*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   },
   "bugs": {
     "url": "https://github.com/SatadruBhattacharjee/multiscreen/issues"
