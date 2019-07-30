@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"2":"Module","128":"Class"},"rows":[{"id":0,"kind":128,"name":"DummyClass","url":"classes/_multiscreen_core.dummyclass.html","classes":"tsd-kind-class tsd-parent-kind-module","parent":"@multiscreen/core"},{"id":1,"kind":2,"name":"@multiscreen/core","url":"modules/_multiscreen_core.html","classes":"tsd-kind-module"}]};
