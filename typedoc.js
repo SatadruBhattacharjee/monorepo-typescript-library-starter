@@ -7,7 +7,6 @@ module.exports = {
         '**/node_modules/**',
         '**/rollup.*.*(ts|js)',
         '**/*+(index|.spec|.test|.e2e).ts'
-
     ],
     name: pack.name,
     excludePrivate: true,

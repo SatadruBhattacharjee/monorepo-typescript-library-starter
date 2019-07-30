@@ -7,7 +7,7 @@
     "lint": "lerna run lint --stream --parallel",
     "build": "lerna run build --stream --parallel",
     "test": "lerna run test --stream --parallel",
-    "docs": "rimraf docs && typedoc",
+    "docs": "rimraf docs && typedoc --tsconfig './tsconfig.typedoc.json'",
     "commit": "git-cz"
   },
   "husky": {
