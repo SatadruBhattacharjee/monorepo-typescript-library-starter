@@ -28,7 +28,7 @@
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' '__tests__/**/*.ts'",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "precommit": "lint-staged",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest --coverage"
   },
   "lint-staged": {
     "{src,__tests__}/**/*.ts": [
