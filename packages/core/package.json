@@ -27,6 +27,7 @@
   "scripts": {
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' '__tests__/**/*.ts'",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
+    "prebuild": "rimraf dist",
     "precommit": "lint-staged",
     "test": "jest --coverage"
   },

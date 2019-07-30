@@ -3,9 +3,11 @@
   "private": true,
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
+    "prebuild": "lerna run prebuild --stream --parallel",
     "lint": "lerna run lint --stream --parallel",
     "build": "lerna run build --stream --parallel",
     "test": "lerna run test --stream --parallel",
+    "docs": "rimraf docs && typedoc",
     "commit": "git-cz"
   },
   "husky": {
@@ -29,8 +31,10 @@
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
     "lerna": "^3.16.4",
+    "lint-staged": "^9.2.1",
     "lodash.camelcase": "^4.3.0",
     "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
     "rollup": "^1.17.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-json": "^4.0.0",
@@ -41,6 +45,8 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-lerna-packages": "^0.1.6",
     "typescript": "^3.5.3"
   }
 }
