@@ -109,6 +109,6 @@ Then you may want to:
 
 Remove `npm run report-coverage` from `.travis.yml`
 
-##Credits
+## Credits
  - **[typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter)** : Thanks for this amazing work, heavily inspired by this and used this for monorepo
 
