@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SatadruBhattacharjee/multiscreen.git"
+    "url": "git+https://github.com/SatadruBhattacharjee/monorepo-typescript-library-starter"
   },
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
