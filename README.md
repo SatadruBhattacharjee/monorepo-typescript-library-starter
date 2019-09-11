@@ -14,9 +14,9 @@ rm -rf .git
 npm install
 ```
 
-###Start coding!
+### Start coding!
 - Please make necessary changes like `name`, `repository.url` in `package.json` file 
-- and `ghToken`, `git config user.nam`, `git config user.email` in `tools/gh-page-publist.ts`
+- and `ghToken`, `git config user.name`, `git config user.email` in `tools/gh-page-publist.ts`
 ### Features
 
  - **[lerna](https://github.com/lerna/lerna)** for monorepo pattern
